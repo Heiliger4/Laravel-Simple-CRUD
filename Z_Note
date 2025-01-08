@@ -1,20 +1,34 @@
-index: Displays all the records (or "things") from the database.
+1. index
+Description: Displays all the records (or "things") from the database.
 Purpose: To list all items, e.g., all users, posts, or products.
+URI: GET /post
 
-create: Renders a page (form) used to create a new item.
+2. create
+Description: Renders a page (form) used to create a new item.
 Purpose: To allow users to input data for a new item.
+URI: GET /post/create
 
-store: Saves the new data submitted via the form from the create page to the database.
+3. store
+Description: Saves the new data submitted via the form from the create page to the database.
 Purpose: To handle the form submission and insert the new record.
+URI: POST /post
 
-show: Displays the details of a single item (record).
+4. show
+Description: Displays the details of a single item (record).
 Purpose: To view more information about one specific item, e.g., viewing a detailed product or user profile.
+URI: GET /post/{id}
 
-edit: Renders a page similar to the create page, but pre-fills the form with the existing data for the item being edited.
+5. edit
+Description: Renders a page similar to the create page, but pre-fills the form with the existing data for the item being edited.
 Purpose: To allow users to update the existing data.
+URI: GET /post/{id}/edit
 
-update: Saves the changes made in the edit page to the database.
+6. update
+Description: Saves the changes made in the edit page to the database.
 Purpose: To handle the form submission and update the record.
+URI: PUT/PATCH /post/{id}
 
-destroy: Deletes a specific record from the database.
+7. destroy
+Description: Deletes a specific record from the database.
 Purpose: To remove an item, such as deleting a user or product.
+URI: DELETE /post/{id}
