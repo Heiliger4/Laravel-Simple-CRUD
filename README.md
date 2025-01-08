@@ -67,8 +67,17 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
    ```bash
    composer install && npm install
+2. Copy the example .env file to create your own .env file:
 
-2. Run the development environment:
+   ```bash
+   cp .env.example .env
+
+3. Generate the application key:
+
+   ```bash
+   php artisan key:generate
+
+4. Run the development environment:
    
    ```bash
    composer run dev
