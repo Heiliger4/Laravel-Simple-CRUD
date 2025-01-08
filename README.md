@@ -61,6 +61,18 @@ In order to ensure that the Laravel community is welcoming to all, please review
 
 If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
+## How to Run the Code
+
+1. Install the PHP and Node.js dependencies:
+
+   ```bash
+   composer install && npm install
+
+2. Run the development environment:
+   
+   ```bash
+   composer run dev
+
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
