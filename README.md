@@ -63,21 +63,26 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 ## How to Run the Code
 
-1. Install the PHP and Node.js dependencies:
+1. Navigate to the cloned directory:
+
+   ```bash
+   cd Laravel-Simple-CRUD
+
+2. Install the PHP and Node.js dependencies:
 
    ```bash
    composer install && npm install
-2. Copy the example .env file to create your own .env file:
+3. Copy the example .env file to create your own .env file:
 
    ```bash
    cp .env.example .env
 
-3. Generate the application key:
+4. Generate the application key:
 
    ```bash
    php artisan key:generate
 
-4. Run the development environment:
+5. Run the development environment:
    
    ```bash
    composer run dev
